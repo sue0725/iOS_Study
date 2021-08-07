@@ -1,8 +1,8 @@
 //
 //  SceneDelegate.swift
-//  DatePickermission
+//  AlertMission
 //
-//  Created by 박수현 on 2021/07/28.
+//  Created by 박수현 on 2021/08/02.
 //
 
 import UIKit
