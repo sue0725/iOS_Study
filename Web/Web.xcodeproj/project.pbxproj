@@ -13,6 +13,7 @@
 		DB10B1D126BEC54B007B4CFE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB10B1CF26BEC54B007B4CFE /* Main.storyboard */; };
 		DB10B1D326BEC54D007B4CFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB10B1D226BEC54D007B4CFE /* Assets.xcassets */; };
 		DB10B1D626BEC54D007B4CFE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB10B1D426BEC54D007B4CFE /* LaunchScreen.storyboard */; };
+		DB10B1DE26BED610007B4CFE /* htmlView.html in Resources */ = {isa = PBXBuildFile; fileRef = DB10B1DD26BED610007B4CFE /* htmlView.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		DB10B1D226BEC54D007B4CFE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DB10B1D526BEC54D007B4CFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DB10B1D726BEC54D007B4CFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB10B1DD26BED610007B4CFE /* htmlView.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = htmlView.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				DB10B1C926BEC54B007B4CFE /* AppDelegate.swift */,
 				DB10B1CB26BEC54B007B4CFE /* SceneDelegate.swift */,
 				DB10B1CD26BEC54B007B4CFE /* ViewController.swift */,
+				DB10B1DD26BED610007B4CFE /* htmlView.html */,
 				DB10B1CF26BEC54B007B4CFE /* Main.storyboard */,
 				DB10B1D226BEC54D007B4CFE /* Assets.xcassets */,
 				DB10B1D426BEC54D007B4CFE /* LaunchScreen.storyboard */,
@@ -124,6 +127,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB10B1DE26BED610007B4CFE /* htmlView.html in Resources */,
 				DB10B1D626BEC54D007B4CFE /* LaunchScreen.storyboard in Resources */,
 				DB10B1D326BEC54D007B4CFE /* Assets.xcassets in Resources */,
 				DB10B1D126BEC54B007B4CFE /* Main.storyboard in Resources */,
