@@ -8,25 +8,34 @@
 import UIKit
 
 class ViewController: UIViewController {
+    var maxImage = 3
+    var numImage = 1
     
-    var img01: UIImage?
-    var img02: UIImage?
-    var img03: UIImage?
-    
-    @IBOutlet var imgView: UIImageView!
-    @IBOutlet var btnBefore: UIButton!
-    @IBOutlet var btnNext: UIButton!
+    @IBOutlet var imgGallery: UIImageView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        
-        imgView.image = img01
-        imgView.image = img02
-        imgView.image = img03
     }
-    @IBAction func btnReBefore(_ sender: UIButton) {
     
+    @IBAction func btnBefore(_ sender: UIButton) {
+        numImage = numImage - 1
+        if(numImage < maxImage) {
+            numImage = maxImage
+        }
+        let imageName = String(numImage) + ".png"
+        imgGallery.image = UIImage(named:imageName)
+    }
+    
+    
+    @IBAction func btnNext(_ sender: UIButton) {
+        numImage = numImage + 1
+        if(numImage > maxImage){
+            numImage = 1
+        }
+        let imageName = String(numImage) + ".png"
+        imgGallery.image = UIImage(named:imageName)
     }
 }
+
 

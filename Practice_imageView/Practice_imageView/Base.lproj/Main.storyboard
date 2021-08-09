@@ -23,24 +23,25 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9D5-bu-wFW">
-                                <rect key="frame" x="36" y="138" width="341" height="417"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mpJ-ZI-84b">
-                                <rect key="frame" x="104" y="697" width="30" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="이전"/>
-                                <connections>
-                                    <action selector="btnReBefore:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kZn-Tg-Mdl"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Xo-WO-2oG">
-                                <rect key="frame" x="289" y="697" width="30" height="30"/>
+                                <rect key="frame" x="315" y="815" width="30" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="다음"/>
                                 <connections>
+                                    <action selector="btnPreview:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xAO-wy-bpw"/>
                                     <action selector="btnReNext:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6SK-nI-STb"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9D5-bu-wFW">
+                                <rect key="frame" x="37" y="141" width="341" height="615"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ktw-TZ-Mld">
+                                <rect key="frame" x="63" y="815" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="이전"/>
+                                <connections>
+                                    <action selector="btnBefore:" destination="BYZ-38-t0r" eventType="touchUpInside" id="PWT-lX-xEl"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -48,8 +49,8 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <connections>
-                        <outlet property="btnbefore" destination="mpJ-ZI-84b" id="F07-Hb-w2M"/>
                         <outlet property="btnnext" destination="7Xo-WO-2oG" id="KTn-kc-Xmf"/>
+                        <outlet property="imgGallery" destination="9D5-bu-wFW" id="eLI-CU-c01"/>
                         <outlet property="imgView" destination="9D5-bu-wFW" id="f1k-cv-1m9"/>
                     </connections>
                 </viewController>

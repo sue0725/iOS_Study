@@ -14,6 +14,7 @@
 		DB10B1D326BEC54D007B4CFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB10B1D226BEC54D007B4CFE /* Assets.xcassets */; };
 		DB10B1D626BEC54D007B4CFE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB10B1D426BEC54D007B4CFE /* LaunchScreen.storyboard */; };
 		DB10B1DE26BED610007B4CFE /* htmlView.html in Resources */ = {isa = PBXBuildFile; fileRef = DB10B1DD26BED610007B4CFE /* htmlView.html */; };
+		DB7241A126BFF9D6009BFAE3 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB7241A026BFF9D6009BFAE3 /* WebKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		DB10B1D526BEC54D007B4CFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DB10B1D726BEC54D007B4CFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DB10B1DD26BED610007B4CFE /* htmlView.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = htmlView.html; sourceTree = "<group>"; };
+		DB7241A026BFF9D6009BFAE3 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB7241A126BFF9D6009BFAE3 /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +47,7 @@
 			children = (
 				DB10B1C826BEC54B007B4CFE /* Web */,
 				DB10B1C726BEC54B007B4CFE /* Products */,
+				DB72419F26BFF9D6009BFAE3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -68,6 +72,14 @@
 				DB10B1D726BEC54D007B4CFE /* Info.plist */,
 			);
 			path = Web;
+			sourceTree = "<group>";
+		};
+		DB72419F26BFF9D6009BFAE3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DB7241A026BFF9D6009BFAE3 /* WebKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
