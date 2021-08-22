@@ -13,6 +13,9 @@
 		DB432F6C26D2824600E908F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB432F6A26D2824600E908F9 /* Main.storyboard */; };
 		DB432F6E26D2824700E908F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB432F6D26D2824700E908F9 /* Assets.xcassets */; };
 		DB432F7126D2824700E908F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB432F6F26D2824700E908F9 /* LaunchScreen.storyboard */; };
+		DB432F7926D292EA00E908F9 /* EditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB432F7826D292EA00E908F9 /* EditViewController.swift */; };
+		DB432F7C26D29A8A00E908F9 /* lamp_off.png in Resources */ = {isa = PBXBuildFile; fileRef = DB432F7A26D29A8A00E908F9 /* lamp_off.png */; };
+		DB432F7D26D29A8A00E908F9 /* lamp_on.png in Resources */ = {isa = PBXBuildFile; fileRef = DB432F7B26D29A8A00E908F9 /* lamp_on.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		DB432F6D26D2824700E908F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DB432F7026D2824700E908F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DB432F7226D2824700E908F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB432F7826D292EA00E908F9 /* EditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditViewController.swift; sourceTree = "<group>"; };
+		DB432F7A26D29A8A00E908F9 /* lamp_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lamp_off.png; sourceTree = "<group>"; };
+		DB432F7B26D29A8A00E908F9 /* lamp_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lamp_on.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +62,13 @@
 		DB432F6326D2824600E908F9 /* Navigation */ = {
 			isa = PBXGroup;
 			children = (
+				DB432F7A26D29A8A00E908F9 /* lamp_off.png */,
+				DB432F7B26D29A8A00E908F9 /* lamp_on.png */,
 				DB432F6426D2824600E908F9 /* AppDelegate.swift */,
 				DB432F6626D2824600E908F9 /* SceneDelegate.swift */,
 				DB432F6826D2824600E908F9 /* ViewController.swift */,
 				DB432F6A26D2824600E908F9 /* Main.storyboard */,
+				DB432F7826D292EA00E908F9 /* EditViewController.swift */,
 				DB432F6D26D2824700E908F9 /* Assets.xcassets */,
 				DB432F6F26D2824700E908F9 /* LaunchScreen.storyboard */,
 				DB432F7226D2824700E908F9 /* Info.plist */,
@@ -126,7 +135,9 @@
 			files = (
 				DB432F7126D2824700E908F9 /* LaunchScreen.storyboard in Resources */,
 				DB432F6E26D2824700E908F9 /* Assets.xcassets in Resources */,
+				DB432F7D26D29A8A00E908F9 /* lamp_on.png in Resources */,
 				DB432F6C26D2824600E908F9 /* Main.storyboard in Resources */,
+				DB432F7C26D29A8A00E908F9 /* lamp_off.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,6 +148,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB432F7926D292EA00E908F9 /* EditViewController.swift in Sources */,
 				DB432F6926D2824600E908F9 /* ViewController.swift in Sources */,
 				DB432F6526D2824600E908F9 /* AppDelegate.swift in Sources */,
 				DB432F6726D2824600E908F9 /* SceneDelegate.swift in Sources */,
