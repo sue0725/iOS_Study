@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  Audio
 //
-//  Created by BeomGeun Lee on 2020/11/11.
+//  Created by 박수현 on 2021/09/12
 //
 
 import UIKit
